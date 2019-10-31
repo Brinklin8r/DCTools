@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCTools", "DCTools\DCTools.csproj", "{EA81AEF7-EADF-4039-8D19-AB61D7A07553}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCTools", "DCTools\DCTools.csproj", "{905A595F-89FC-4AAD-A860-E8F32F81F7D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCTools.UI", "DCTools.UI\DCTools.UI.csproj", "{89A9CE01-5B39-4BBA-83A0-678B2DFC07B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA81AEF7-EADF-4039-8D19-AB61D7A07553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA81AEF7-EADF-4039-8D19-AB61D7A07553}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA81AEF7-EADF-4039-8D19-AB61D7A07553}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA81AEF7-EADF-4039-8D19-AB61D7A07553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905A595F-89FC-4AAD-A860-E8F32F81F7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905A595F-89FC-4AAD-A860-E8F32F81F7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905A595F-89FC-4AAD-A860-E8F32F81F7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905A595F-89FC-4AAD-A860-E8F32F81F7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A9CE01-5B39-4BBA-83A0-678B2DFC07B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A9CE01-5B39-4BBA-83A0-678B2DFC07B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A9CE01-5B39-4BBA-83A0-678B2DFC07B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A9CE01-5B39-4BBA-83A0-678B2DFC07B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
