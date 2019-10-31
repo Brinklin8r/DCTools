@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DCTools", "DCTools\DCTools.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DCTools.UI", "DCTools.UI\DCTools.UI.csproj", "{89A9CE01-5B39-4BBA-83A0-678B2DFC07B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCTools.AD", "DCTools.AD.User\DCTools.AD.csproj", "{62A9FB75-1DE5-494D-A6A0-4195468696BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DCTools.User", "DCTools.AD.User\DCTools.User.csproj", "{62A9FB75-1DE5-494D-A6A0-4195468696BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

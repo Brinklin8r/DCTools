@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DCTools.AD.User\DCTools.User.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -22,8 +22,10 @@ namespace DCTools.UI {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e) {
+        User.Local lUser = new User.Local();
 
+        private void btnOK_Click(object sender, RoutedEventArgs e) {
+            lUser.Add("Chris", User.Local.Environment.CUCBECM);
         }
     }
 }
