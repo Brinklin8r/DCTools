@@ -17,14 +17,18 @@ namespace DCTools.UI {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+            Logger.Info("Starting DCTools.");
         }
 
+        private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         User.Local lUser = new User.Local();
 
         private void btnOK_Click(object sender, RoutedEventArgs e) {
+            Logger.Debug("OK Button Clicked.");
             lUser.Add("Chris", User.Local.Environment.CUCBECM);
         }
     }

@@ -2,7 +2,7 @@
 
 
 namespace DCTools {
-    class Launcher {
+     class Launcher {
         [STAThread]
         static void Main(string[] args) {
             UI.App app = new UI.App();
