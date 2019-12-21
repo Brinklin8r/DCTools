@@ -1,0 +1,63 @@
+﻿<Window x:Class="DCTools.UI.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DCTools.UI"
+        mc:Ignorable="d"
+        Title="DC Tools v1" 
+            Height="150" 
+            Width="500">
+
+    <Grid Margin="10,10,10,10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Name="btnLogin" 
+                Content="Login" 
+                Click="btnLogin_Click" 
+                Grid.Column="4" 
+                Grid.Row="0"
+                />
+
+        <Label Name="lblUN"
+               Content="User Name: " 
+               HorizontalAlignment="Right"
+               Grid.Column="0" 
+               Grid.Row="0"        
+               />
+
+        <TextBox Name="tbUN" 
+                 TextWrapping="Wrap" 
+                 Grid.Column="1" 
+                 Grid.Row="0"
+                 />
+
+        <Label Name="lblPW"
+               Content="Password: " 
+               HorizontalAlignment="Right"
+               Grid.Column="0" 
+               Grid.Row="1"        
+               />
+
+        <PasswordBox Name="tbPW" 
+                 Grid.Column="1" 
+                 Grid.Row="1"
+                 />
+
+        <Label Name="lblResults" 
+               Content="" 
+               Grid.Row="3" Grid.ColumnSpan="4"
+               />
+    </Grid>
+</Window>
